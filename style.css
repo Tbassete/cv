@@ -1,0 +1,149 @@
+@charset "utf-8";
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+
+}
+
+body{
+    
+    background-image:linear-gradient(45deg, black 33%, rgb(204, 207, 212)33%, black);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 300% 300%;
+    animation: colors 15s ease infinite;
+}
+
+@keyframes colors{
+    0%{
+        background-position: 0% 50%;
+    }
+    50%{
+        background-position: 100% 50%;
+    }
+    100%{
+        background-position: 0% 50%;
+    }
+}
+
+header{
+
+    margin-top: 20px;
+    margin-bottom: 100px;
+    color: white;
+    text-shadow: 0px 0px 3px black;
+    font-variant: small-caps;
+    text-align: right;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.158);
+    backdrop-filter: blur(10px);
+    box-shadow: 0px 0px 30px  rgba(204, 207, 212, 0.295);
+}
+#logoc{
+    display: flex;
+    margin-bottom: -40px;
+    margin-top: -20px;
+    margin-left: 60px;
+
+}
+#logo{
+    width: 100px;
+}
+header>nav{
+    margin-bottom: 10px;
+}
+header>nav>a{
+    padding-bottom: 40px;
+    margin-right: 20px;
+    font-size: x-large;
+    display: inline;
+    text-decoration: none;
+    color: white;
+}
+#intro{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    overflow: hidden;
+    background-color: rgba(255, 255, 255, 0.123);
+    border-radius: 20px;
+    border: 1px solid rgba(0, 0, 0, 0.144);
+    backdrop-filter: blur(8px);
+}
+
+#intro:hover{
+    box-shadow: 0px 0px 10px black;
+    transition: all 0.4s ease;
+    box-shadow: 0px 0px 10px  rgb(204, 207, 212);
+}
+
+div>p{
+    color: white;
+    text-shadow: 0px 0px 10px black;
+    text-align: center;
+    font-size: larger;
+}
+
+#cv{
+    margin: auto;
+    margin-bottom: 30px;
+    background-color: rgb(34, 34, 34);
+    max-width: 200px;
+    border-radius: 6px;
+}
+#cv:hover{
+    background-color: white;
+    color: black;
+}
+#cv>p:hover{
+    color: black;
+}
+#profile{
+    margin: 20px;
+    max-width: 250px;
+    justify-content: center;
+    align-items: center;
+}
+
+#profilef{
+  
+    position: relative;
+    border-radius: 50%;
+    width: 250px;
+    justify-content: right;
+}
+
+
+.social{
+    background: rgba(0, 0, 0, 0.034);
+    margin-bottom: 10px;
+    margin-left: 8px;
+    border-radius: 50%;
+    width: 40px;
+    max-width: 80px;   
+    filter: grayscale(1);
+    transition: all .3s ease;
+}
+
+
+#redes{
+    margin: 30px 0px;
+    
+    display: flex;
+    justify-content: center;
+}
+
+.social:hover{
+    margin-left: 0px;
+    border: 2px solid rgba(255, 255, 255, 0.603);
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.616);    
+    width: 80px;
+    filter: grayscale(0);
+    transition: all .3s;
+}
+
+div>a{
+    text-decoration: none;
+}
