@@ -250,3 +250,17 @@ div>a{
     font-size: 28px;
     
 }
+
+.content-section .card p{
+    margin: 0px 5px 10px 5px;
+    max-width: 490px;
+    text-align: center;
+}
+
+.content-section .card a{
+    text-decoration: none;
+    color: black;
+}
+.content-section .card a:hover{
+    color: white;
+}
