@@ -241,7 +241,7 @@ div>a{
 }
 .content-section .card img{
     border-radius:10px 10px 0px 0px ;
-    width: 500px;
+    width: 400px;
     height: auto;
 }
 
@@ -253,7 +253,7 @@ div>a{
 
 .content-section .card p{
     margin: 0px 5px 10px 5px;
-    max-width: 490px;
+    max-width: 390px;
     text-align: center;
 }
 
