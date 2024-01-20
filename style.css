@@ -4,13 +4,13 @@
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
-
+    font-family: sans-serif;
 }
 
 
 body{
     
-    background-image:linear-gradient(45deg, white 50%, rgb(204, 207, 212)50%);
+    background-image:linear-gradient(45deg, rgb(30, 58, 65) 50%, rgb(204, 207, 212)50%);
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: 300% 300%;
@@ -84,7 +84,7 @@ header>nav>a{
     box-shadow: 0px 0px 10px  rgb(204, 207, 212);
 }
 
-div>p{
+#intro>div>p{
     color: white;
     text-shadow: 0px 0px 10px black;
     text-align: center;
@@ -92,6 +92,9 @@ div>p{
 }
 
 #cv{
+    text-align: center;
+    font-size: larger;
+    color: white;
     margin: auto;
     margin-bottom: 30px;
     background-color: rgb(34, 34, 34);
@@ -155,7 +158,8 @@ div>a{
 }
 
 #skills{
-   
+    display: flex;
+    flex-direction: column;
     margin: auto;
     max-width: 500px;
     overflow: hidden;
@@ -166,9 +170,42 @@ div>a{
 }
 
 #skills>div{
-    margin-left: 20px;
+    
+    margin: 20px 10px 10px 26px;
 }
 
 #skills>div>ul>li>p{
     margin-left:10px ;
+    margin-bottom: 6px;
+    margin-top: 6px;
+}
+
+#graduation{
+    
+    margin: auto;
+    max-width: 500px;
+    overflow: hidden;
+    background-color: rgba(255, 255, 255, 0.123);
+    border-radius: 10px;
+    border: 1px solid rgba(0, 0, 0, 0.144);
+    backdrop-filter: blur(8px);
+    color: black;
+}
+#graduation>h2{
+    margin: 5px 0px 0px 10px;
+}
+#graduation>div{
+    margin: 20px;
+}
+
+#graduation>div>p>a{
+    color: black;
+    text-decoration: none;
+    font-variant: small-caps;
+    font-weight: bold;
+}
+
+#graduation>div>p>a:hover{
+    color: white;
+    text-shadow: 0px 0px 10px black;
 }
