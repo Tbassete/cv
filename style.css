@@ -264,3 +264,7 @@ div>a{
 .content-section .card a:hover{
     color: white;
 }
+
+.nav-link{
+    color: black;
+}
