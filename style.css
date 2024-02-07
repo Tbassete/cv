@@ -8,10 +8,42 @@
     
 }
 
+.carregando{
+    background-color: rgb(30, 58, 65);
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.pontos{
+    border: 8px solid rgb(213, 217, 223);
+    border-radius: 50%;
+    margin: 4px;
+}
+.pontos:nth-child(1){
+    animation: pre-carregamento .6s ease-in-out alternate infinite;
+}
+.pontos:nth-child(2){
+    animation: pre-carregamento .6s ease-in-out alternate .2s infinite;
+}
+.pontos:nth-child(3){
+    animation: pre-carregamento .6s ease-in-out alternate .4s infinite;
+}
 
+@keyframes pre-carregamento{
+    100% {
+        transform: scale(2);
+    }
+}
 body{
     
-    background-image:linear-gradient(45deg, rgb(30, 58, 65) 50%, rgb(204, 207, 212)-50%);
+    background-image:linear-gradient(45deg, rgb(30, 58, 65) 50%, rgb(213, 217, 223) 50%);
     background-repeat: no-repeat;
    background-attachment: fixed;
     background-size: 300% 300%;
@@ -82,7 +114,7 @@ body{
     font-size: larger;
 }
 
-#cv{
+.cv{
 
     text-align: center;
     font-size: larger;
@@ -90,15 +122,15 @@ body{
     margin: auto;
     margin-left: 0px;
     background-color: rgb(34, 34, 34);
-    max-width: 200px;
+    max-width: 357px;
     border-radius: 6px;
 }
 
-#cv:hover{
+.cv:hover{
     background-color: white;
     color: black;
 }
-#cv>p:hover{
+.cv>p:hover{
     
     color: black;
 }
@@ -228,7 +260,7 @@ div>a{
     flex: 1;
     margin: 20px 20px;
     box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.205);
-    min-width: 390px;
+    min-width: 399px;
 }
 .content-section .card:hover{
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.521);

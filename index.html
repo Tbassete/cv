@@ -61,8 +61,9 @@
                   <div class="col-lg-6">
                     <h1 class="display-5 fw-bold text-body-emphasis lh-1 mb-3">I'm a developer Thiago Bassete</h1>
                     <a href="./cv/cv Thiago Bassete.pdf">
-                        <div id="cv"><p>download my CV</p></div>
+                        <div class="cv"><p>Download my CV</p></div>
                     </a>
+                    
                     <div class="d-grid gap-2 d-md-flex justify-content-md-start">
                         <nav id="redes">
                             <div class="borda">
@@ -98,13 +99,13 @@
                 <h2>Technical Skills:</h2>
         
                 <li>Programming Languages:
-                    <p>Experience in specific languages such as JavaScript (Node.js), Java, HTML, CSS, etc.</p>
+                    <p>Experience in specific languages such as JavaScript, Java, c++</p>
                 </li>
                 <li>Frameworks and Libraries:
-                    <p>Knowledge in frameworks and libraries relevant to web development, like React, Angular, Vue.js, etc.</p>
+                    <p>Knowledge in frameworks and libraries relevant to web development, like React, Node.js, Jquery, git github,apis </p>
                 </li>
                 <li>Database:
-                    <p>Experience with database management systems (e.g., MySQL, MongoDB).</p>
+                    <p>Experience with database management systems (MySQL, MongoDB).</p>
                 </li>
                 <li>Front-end/Back-end Development:
                     <p>Skills in front-end (user interface) and/or back-end (server-side logic) development.</p>
@@ -113,11 +114,9 @@
                     <p>Knowledge of version control tools, such as Git.</p>
                 </li>
                 <li>Development Tools:
-                    <p>Familiarity with Integrated Development Environments (IDEs) and other development tools.</p>
+                    <p>Familiarity with Integrated Development Environments (IDEs) and other development tools. vscode netbeans dev c++</p>
                 </li>
-                <li>Testing and Debugging:
-                    <p>Ability to write unit tests and perform effective debugging.</p>
-                </li>
+              
             </ul>
         </div>
         
@@ -225,8 +224,17 @@
     </main>
     <footer></footer>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
-    <script type="text/JavaScript" src="js/jquery-3.1.1.min.js"></script>
-    <script type="text/JavaScript" src="js/app.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <div class="carregando">
+        <span class="pontos"></span>
+        <span class="pontos"></span>
+        <span class="pontos"></span>
+    </div>
+    <script>
+        $(window).on("load", function(){
+            $(".carregando").fadeOut("slow");
+        });
+    </script>
   
 </body>
 </html>
