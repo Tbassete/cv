@@ -155,7 +155,7 @@ div>a{
     display: flex;
     flex-direction: column;
     margin: auto;
-    max-width: 500px;
+    max-width: 1200px;
     overflow: hidden;
     background-color: rgb(255, 255, 255);
     border-radius: 10px;
@@ -178,7 +178,7 @@ div>a{
 #graduation{
     margin-bottom: 40px;
     margin: auto;
-    max-width: 500px;
+    max-width: 1200px;
     overflow: hidden;
     background-color: rgb(255, 255, 255);
     border-radius: 10px;
@@ -209,14 +209,15 @@ div>a{
     width: 100%;
     min-height: 100vh;
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     padding: 0px 90px;
 }
 
 .content-section{
-    display: flex;
-    flex-direction: column;
+    display: grid;
+   grid-template-columns: auto;
     justify-content: center;
     align-items: center;
     text-align: center;
@@ -227,7 +228,7 @@ div>a{
     flex: 1;
     margin: 20px 20px;
     box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.205);
-    backdrop-filter: blur(8px);
+    min-width: 390px;
 }
 .content-section .card:hover{
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.521);
@@ -235,7 +236,8 @@ div>a{
 }
 .content-section .card img{
     border-radius:10px 10px 0px 0px ;
-    width: 400px;
+    min-width: 390px;
+  
     height: auto;
 }
 
