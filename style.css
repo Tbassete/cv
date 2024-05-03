@@ -418,7 +418,7 @@ div>a{
     background: #89b7d1;
     margin: 0 1px;
     border-radius: 50%;
-    box-shadow: 0 0 0 4px #f3f3f344,
+    box-shadow: 0 0 0 10px #f3f3f344,
     0 0  50px #ffffff,
     0 0  100px #40413d;
     animation: animar calc(220s / var(--i)) linear infinite;
