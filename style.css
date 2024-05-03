@@ -421,7 +421,7 @@ div>a{
     box-shadow: 0 0 0 10px #f3f3f344,
     0 0  50px #ffffff,
     0 0  100px #40413d;
-    animation: animar calc(220s / var(--i)) linear infinite;
+    animation: animar calc(480s / var(--i)) linear infinite;
     z-index: -1;
 }
 
